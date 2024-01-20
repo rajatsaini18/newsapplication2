@@ -1,0 +1,18 @@
+.box {
+    transition: box-shadow .3s;
+    border-radius:40px;
+    margin: 20px;
+    
+    border: 3px solid #1e0505;
+    background: #f0efef;
+    transition: transform .5s;
+  
+    
+  }
+  .box:hover {
+    box-shadow:  10px 10px 16px  rgb(214, 215, 217),-0.8em -0.8em 1.6em rgb(216, 211, 214);
+    transform: scale(1.1);
+    
+    
+    
+  }
